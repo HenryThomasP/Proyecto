@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #1C1B1B;
+    color: #fff;
+    font-size: 1em;
+    line-height: 1.6em;
+    
+}
+
+p {
+    margin-bottom: 1.6em;
+}
+
+button {
+    cursor: pointer;
+}
+
+select {
+    background-color: #1C1B1B;
+}
+
+/* header */
+.header {
+    width: 100%;
+    background-color: #0F0F0F;
+    box-shadow: 2px 5px 20px #000;
+    padding: 0.3rem 0;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+   
+}
+
+    .header a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+.container {
+    width: 85%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.divlogo {
+    letter-spacing: 5px;
+
+}
+
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+    .navigation ul li {
+        display: inline-block;
+    }
+
+        .navigation ul li a {
+            display: block;
+            padding: 0.5rem 1rem;
+            transition: all 0.4s linear;
+            border-radius: 5px;
+        }
+
+            .navigation ul li a:hover {
+                background: #4a4a4a;
+            }
+
+
+/* main index */
+.main {
+    padding-top: 15rem;
+}
+
+    .main a{
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .main p {
+        margin-right: 200px;
+    }
+
+    .main .container table {
+        width: 90%;
+        border: 2px solid #000;
+        border-collapse: collapse;
+        background-color: #262626;
+    }
+
+        .main .container table button {
+            background-color: #4a4a4a;
+            width: 22px;
+            height: 24px;
+            margin: 6px;
+        }
+
+        .main .container table th {
+            border-bottom: 2px solid #000;
+            text-align: right;
+        }
+
+        .main .container table td {
+            border: 2px solid #000;
+            text-align: justify;
+        }
+
+        .main .container table td .margin {
+            margin: 30px;
+        }
+
+/* main registro1*/
+.main1 {
+    padding-top: 15rem;
+}
+
+    .main1 .div .a{
+        text-decoration: none;
+    }
+
+    .main1 .div p {
+        margin-right: 200px;
+    }
+    
+    .main1 .div button {
+        background-color: #4a4a4a;
+        width: 100px;
+        height: 40px;
+        color: #fff;
+        margin-bottom: 30px;
+    }
+
+    .main1 .div label input {
+        width: 250px;
+        height: 25px;
+        border: 1px solid #000;
+        margin-bottom: 15px;
+        background-color: #2b2525;
+        font-weight: bold;
+    }
+
+/* footer */
+.footer {
+    width: 100%;
+    background-color: #0F0F0F;
+    padding: 1rem 0;    
+}
+
+    .footer a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .footer p{
+        margin-bottom: 0;
+    }
+
+    .footer .hr {
+        display: block;
+        height: 1px;
+        border: 0;
+        border-top: 1px solid gold;
+        margin: 1em 0;
+        padding: 0;
+    }
+
+    .footer ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    
+        .footer ul .li {
+            margin-left: 520px;
+        }
+
+        .footer ul li {
+            display: inline-block;
+        }
+    
+            .footer ul li a {
+                display: block;
+                padding: 0.5rem 1rem;
+                transition: all 0.4s linear;
+                border-radius: 5px;
+                
+            }
+    
+                .footer ul li a:hover {
+                    background: #4a4a4a;
+                }

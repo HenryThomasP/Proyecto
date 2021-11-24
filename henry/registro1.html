@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendar - Registro</title>
+    <link rel="stylesheet" href="css/plantilla.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container logo-nav-container">
+            <div class="divlogo">
+                <a href="index.html">
+                    <img src="contenido/logo.png" alt="Logo Taller Automotriz" width="150px" height="107px" title="Logo Taller Automotriz">
+                </a>
+            </div>
+            <nav class="navigation">
+                <ul class="ul">
+                    <li>
+                        <a class="a" href="index.html">Inicio.</a>
+                    </li>
+                    <li>
+                        <a class="a" href="servicios.html">Servicios</a>
+                    </li>
+                    <li>
+                        <a class="a" href="registro1.html">Agendar Citas.</a>
+                    </li>
+                    <li>
+                        <a class="a" href="administracion.html" target="_blank">Administracion.</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main class="main1">
+        <div class="container">
+            <div class="div">
+                <label class="label" for="Servicios">Servicios.</label><br>
+                <select class="select" name="Servicios" id="Servicios">
+                    <option selected>Elija el servicio.</option>
+                    <option value="revisionFrenos">Revision de frenos.</option>
+                    <option value="pastillas">Pastillas.</option>
+                    <option value="discos">Discos.</option>
+                    <option value="suspencion">Suspensión.</option>
+                    <option value="amortiguadores">Amortiguadores.</option>
+                    <option value="cambioAceite">Cambio de aceite.</option>
+                    <option value="aleneacionLlantas">Alineacion de llantas</option>
+                    <option value="rotacionLlantas">Rotacion de llantas</option>
+                </select><br><br>
+            </div>
+            <div class="div">
+                <form action="" method="post">
+                    <label class="label" for="Nombre">Nombre. <br>
+                        <input type="text" name="nombre" maxlength="50" placeholder="Nombre y apellidos." required autofocus>
+                    </label>
+                    <br><br>
+                    <label class="label" for="Placa">Placa del Vehiculo. <br>
+                        <input type="text" name="placa" maxlength="50" placeholder="Ejemplo: AAA 123" required>
+                    </label>
+                    <br><br>
+                    <label class="label" for="e-mail">Correo electronico. <br> 
+                        <input type="email" name="e-mail" maxlength="100" placeholder="correoelectronico@direccion.com" required>
+                    </label>
+                    <br><br>
+                    <a class="a" href="agendar.html">
+                        <button class="button" type="submit" value="Enviar">SIGUIENTE</button>
+                    </a>
+                    <br><br>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <h5>TALLER AUTOMOTRIZ.</h3>
+            <p>Ciudad, Departamento, Pais.</p> 
+            <p>
+                Lineas de atencion: Ciudad xxx xxx xxxx, Ciudad xxx xxx xxxx.
+            </p>
+            <a href="#">
+                <p>Terminos y Condiciones.</p>
+            </a>
+            <hr class="hr">
+        </div>
+        <div class="container">
+            <ul>
+                <ul>
+                    <li>
+                        <img src="contenido/copy.png" alt="copyright" width="20px" height="20px" title="copyright">
+                    </li>
+                    <li>
+                        Talleres Automotriz.
+                    </li>
+                    <li class="li">
+                        <li>
+                            <a href="#">
+                                <img src="contenido/facebook.png" alt="Facebook" width="25px" height="25px" title="Facebook">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="contenido/whatsapp.png" alt="whatsapp" width="45px" height="25px" title="Whatsapp">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="contenido/twitter-blanco.png" alt="Twitter" width="25px" height="25px" title="Twitter">
+                            </a>
+                        </li>
+                    </li>
+                </ul>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
