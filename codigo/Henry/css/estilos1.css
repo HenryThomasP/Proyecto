@@ -73,7 +73,49 @@ button {
             .navigation ul li a:hover {
                 background: #4a4a4a;
             }
-             
+
+
+/* main agendar */
+.main {
+    padding-top: 15rem;
+}
+
+    .main .button {
+        background-color: #4a4a4a;
+        width: 70px;
+        height: 28px;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        color: #fff;
+    }
+
+    .main .button1 {
+        background-color: #4a4a4a;
+        width: 100px;
+        height: 28px;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        color: #fff;
+    }
+
+    .main .space { 
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+
+    .main .container .div {
+        margin-bottom: 50px;
+    }
+
+        .main .container .div ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+            .main .container .div ul li {
+                display: inline-block;
+            }              
     
 /* main servicios */
 .main1 {
