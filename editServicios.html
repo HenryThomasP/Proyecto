@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usuario de planta - Servicios.</title>
+    <link rel="stylesheet" href="css/estilos4.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container logo-nav-container">
+            <div class="divlogo">
+                <a href="index.html">
+                    <img src="contenido/logo.png" alt="Logo Taller Automotriz" width="150px" height="107px" title="Logo Taller Automotriz">
+                </a>
+            </div>
+            <nav class="navigation">
+                <ul class="ul">
+                    <li>
+                        <a class="a" href="index.html">Inicio.</a>
+                    </li>
+                    <li>
+                        <a class="a" href="servicios.html">Servicios</a>
+                    </li>
+                    <li>
+                        <a class="a" href="administracion.html" target="_blank">Administracion.</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <label for="servicios">Servicios.</label><br>
+            <select name="servicios" id="servicios">
+                <option>Seleccione un servicio.</option>
+                <option value="frenos">Revision de frenos.</option>
+                <option value="pastillas">Pastillas.</option>
+                <option value="discos">Discos.</option>
+                <option value="suspension">Suspension.</option>
+                <option value="amortiguador">Amortiguadores.</option>
+                <option value="aceite">Cambio de aceite.</option>
+                <option value="llantas">lineacion y rotacion de llantas.</option>
+            </select><br>
+            <div>
+                <div class="div">
+                    <div class="contenido">
+                        <h4>Revision de Frenos.</h4><br>
+                        <label for="descripcion">Descripcion.</label><br>
+                        <textarea name="descripcion" id="descripcion" cols="50" rows="10" placeholder="Descripcion del servicio..."></textarea> <br><br>
+                        <label for="costo">Costo del servicio.</label><br>
+                        <input type="number" name="costo" id="costo"><br><br>
+                        <label for="duracion">Duracion.</label><br>
+                        <input type="number" name="duracion" id="duracion">
+                    </div>
+                </div>
+                <ul>
+                    <li>
+                        <button>Guardar.</button>
+                    </li>
+                    <div class="li">
+                        <li>
+                            <a href="usuarioP.html">
+                                <button>Cancelar.</button>
+                            </a>
+                        </li>
+                    </div>
+                </ul>
+                
+            </div>
+        </div>
+    </main>
+</body>
+</html>

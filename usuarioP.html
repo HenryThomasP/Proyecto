@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usuario de Planta.</title>
+    <link rel="stylesheet" href="css/estilos3.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container logo-nav-container">
+            <div class="divlogo">
+                <a href="index.html">
+                    <img src="contenido/logo.png" alt="Logo Taller Automotriz" width="150px" height="107px" title="Logo Taller Automotriz">
+                </a>
+            </div>
+            <nav class="navigation">
+                <ul class="ul">
+                    <li>
+                        <a class="a" href="index.html">Inicio.</a>
+                    </li>
+                    <li>
+                        <a class="a" href="servicios.html">Servicios</a>
+                    </li>
+                    <li>
+                        <a class="a" href="administracion.html" target="_blank">Administracion.</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <label for="nombre">Nombre y Apellido del usuario.</label> <br>
+            <label for="correo">Correo: 
+                <label for="correoUsuario">correoelectronico@direccion.com</label>
+            </label> <br>
+            <label for="cargo">Cargo: 
+                <label for="cargoUsuario">Usuario de Planta.</label>
+            </label> <br>
+            <div class="div">
+                <div class="contenido">
+                    <label for="servicios">Servicios</label> <br>
+                    <select name="servicios" id="servicios">
+                        <option>Seleccione un servicio.</option>
+                        <option value="frenos">Revision de frenos.</option>
+                        <option value="pastillas">Pastillas.</option>
+                        <option value="discos">Discos.</option>
+                        <option value="suspension">Suspension.</option>
+                        <option value="amortiguador">Amortiguadores.</option>
+                        <option value="aceite">Cambio de aceite.</option>
+                        <option value="llantas">lineacion y rotacion de llantas.</option>
+                    </select>
+                </div>
+                <div class="contenido2">
+                    <ul>
+                        <li>
+                            <label for="frenos">Revision de Frenos.</label>
+                        </li>
+                        <div class="li">
+                            <li>
+                                <a href="editServicios.html">
+                                    <button>EDITAR</button>
+                                </a>
+                            </li>
+                        </div>
+                    </ul> <br><br>
+                    <ul>
+                        <li>
+                            <button class="boton" type="button" id="botonD" value="botonD" onclick="disponible();">Disponible.</button>
+                        </li>
+                        <li>
+                            <button class="boton" type="button" id="botonN" value="botonN" onclick="nodisponible();">No Disponible.</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="div">
+                <div class="contenido">
+                    <h4>Agenda.</h4>
+                    <label for="filtro">Filtrar por servicio.</label>
+                    <select name="filtro" id="filtro">
+                        <option>Seleccione un servicio.</option>
+                        <option value="frenos">Revision de frenos.</option>
+                        <option value="pastillas">Pastillas.</option>
+                        <option value="discos">Discos.</option>
+                        <option value="suspension">Suspension.</option>
+                        <option value="amortiguador">Amortiguadores.</option>
+                        <option value="aceite">Cambio de aceite.</option>
+                        <option value="llantas">lineacion y rotacion de llantas.</option>
+                    </select>
+                </div>
+                <div class="contenido2">
+                    <ul>
+                        <li>
+                            <label for="nameCliente">Nombre del cliente.</label>
+                        </li>
+                        <div class="li">
+                            <li>
+                                <label for="fechacita">Fecha de la cita: 12/12/2021</label>
+                            </li>
+                        </div>
+                    </ul>
+                    <ul>
+                        <li>
+                            <label for="placaVehiculo">Placa del vehiculo.</label>
+                        </li>
+                        <div class="li">
+                            <li>
+                                <label class="right" for="horacita">Hora de la cita: 10:00 a.m.</label>
+                            </li>
+                        </div>
+                    </ul> <br>
+                    <ul>
+                        <li>
+                            <label for="servicio">Servicios: 
+                                <label for="frenos">Revision de frenos.</label>
+                            </label>
+                        </li>
+                        <div class="li">
+                            <li>
+                                <button>Cancelar cita.</button>
+                            </li>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+            <div class="div">
+                <div class="contenido">
+                    <h4>Reportes.</h4><br>
+                    <div class="contenido2">
+                        <h4>Servicio mas solicitado.</h4>
+                        <label for="frenos">Revision de frenos.</label>
+                        <br><br>
+                        <label for="cantsolicitudes">Cantidad de solicitudes: 
+                            <label for="numsolicitudes">22.</label>
+                        </label>
+                    </div>
+                    <div class="contenido2">
+                        <h4>Servicio menos solicitado.</h4>
+                        <label for="discos">Discos.</label>
+                        <br><br>
+                        <label for="cantsolicitudes">Cantidad de solicitudes: 
+                            <label for="numsolicitudes">1.</label>
+                        </label>
+                    </div>
+                    <div class="contenido2">
+                        <h4>Lista de mecanicos.</h4><br>
+                        <a href="listMecanicos.html">Ver Lista</a>
+                    </div>
+                    <div class="contenido2">
+                        <h4>Servicios completados.</h4><br>
+                        <a href="servCompletados.html">Ver lista.</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="js/javascript.js"></script>
+</body>
+</html>
